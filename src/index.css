@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-screen max-w-full md:mx-0 lg:mx-44 my-11 bg-slate-100;
+}
