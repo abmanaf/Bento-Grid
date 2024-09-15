@@ -2,44 +2,44 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-    <div className='grid md:grid-cols-1 lg:grid-cols-8 grid-flow-row gap-4 p-4'>
-      <div style={{flexDirection: 'column', justifyContent: 'start', alignItems: 'center'}} className='bg-orange-200  rounded-lg col-span-1 lg:col-span-2 p-4'>
-        <p className='text-5xl md:text-md lg:text-3xl'>Create and schedule content <span className='text-purple-400'>quicker</span></p>
-        <img className="mt-7 w-5/6 text-start" src="/assets/images/illustration-create-post.webp" alt="Create and schedule content" />
+    <div className='grid md:grid-cols-1 lg:grid-cols-4 grid-flow-row md:grid-rows-1 lg:grid-rows-6 gap-3'>
+      <div className='bg-yellow-100 rounded-lg flex flex-col justify-center md:row-span-1 lg:row-span-3 p-4'>
+        <p className='text-4xl lg:text-5xl font-semibold -tracking-widest leading-2'>Create and schedule content  <span className='text-purple-500'>quiker</span></p>
+        <img className='md:w-4/5 lg:w-2/5 mt-5' src="public/assets/images/illustration-create-post.webp" alt="create-post" />
       </div>
-      <div className='bg-purple-500 flex flex-col justify-center items-center text-white rounded-lg col-span-1 lg:col-span-4  p-4'>
-        <p className='text-6xl text-center'>Social Media <span className='text-yellow-500'>10x</span> Faster with AI</p>
-        <img className="mt-2  w-40" src="/assets/images/illustration-five-stars.webp" alt="Five-star reviews" />
-        <span>Over 4,400 5-star reviews</span>
-      </div>      
-      <div className='bg-white flex flex-col justify-center items-center rounded-lg col-span-1  lg:col-span-2 p-4'>
-        <p> <span  className='text-5xl font-semi-bold'>&gt; 56%</span> <br /> <p className='my-3'>faster audience growth</p></p>
-        <img className="w-3/6 mt-2" src="/assets/images/illustration-audience-growth.webp" alt="Audience growth" />
+      <div className='bg-purple-500 rounded-lg col-span-1 lg:col-span-2 flex flex-col justify-center items-center md:row-span-1 lg:row-span-2 order-first lg:order-none  p-4'>
+        <p className='text-5xl lg:text-6xl text-white font-semibold text-center'>Social Media <span className='text-yellow-500'>10x</span> Faster with AI</p>
+        <img className='md:w-4/5 lg:w-2/5 mt-5' src="public/assets/images/illustration-five-stars.webp" alt="illustration-five-stars" />
+        <p className='text-white'>Over 4,000 5-star reviews</p>
       </div>
-      <div className='bg-white flex flex-col justify-center items-center rounded-lg col-span-1 lg:col-span-2  p-4'>
-        <img className="w-full" src="/assets/images/illustration-multiple-platforms.webp" alt="Manage multiple platforms" />
-        <p className='text-4xl font-semibold'>Manage multiple accounts and platforms.</p>
+      <div className='bg-purple-100 rounded-lg flex flex-col justify-center items-center row-span-1 lg:row-span-4  p-4'>
+        <p className='text-5xl leading-2 -tracking-widest'>Schedule to social media</p>
+        <img className='mt-5 ' src="public/assets/images/illustration-schedule-posts.webp" alt="illustration-schedule-posts" />
+        <p className='mt-5'>Optimize post timmings to publish content at the perfect time for your audience</p>
       </div>
-      <div className='bg-yellow-500 rounded-lg col-span-1 lg:col-span-2  p-4'>
-        <p className='text-3xl'>Maintain a consistent posting schedule</p>
-        <img className="w-full mt-2" src="/assets/images/illustration-consistent-schedule.webp" alt="Consistent posting schedule" />
+      <div className='bg-white rounded-lg row-span-2 lg:row-span-2 flex flex-col justify-center items-center p-4'>
+        <img className='mb-5' src="public/assets/images/illustration-multiple-platforms.webp" alt="illustration-multiple-platforms" />
+        <p className='text-4xl font-semibold leading-1 -tracking-wide'>Manage multiple accounts and platforms</p>
       </div>
-      <div className='bg-yellow-500 rounded-lg col-span-1 lg:col-span-2  p-4'>
-        <p className='text-2xl'>Write your content using AI</p>
-        <img className="w-full mt-2" src="/assets/images/illustration-ai-content.webp" alt="Write content using AI" />
-      </div>      
-      <div className='bg-purple-200 flex flex-col justify-center rounded-lg items-center col-span-1 lg:col-span-2 row-span-2 p-4'>
-        <p className='text-4xl mb-6'>Schedule to social media</p>
-        <img className="w-full mt-2" src="/assets/images/illustration-schedule-posts.webp" alt="Schedule to social media" />
-        <p className='mt-6'>Optimize post timings to publish content at the perfect time for your audience</p>
+      <div className='bg-yellow-500 rounded-lg  lg:row-span-2 flex flex-col justify-center items-center p-4'>
+        <p className='text-3xl leading-2 -tracking-widest'>Maintain a consistent posting schedule</p>
+        <img className=' ' src="public/assets/images/illustration-consistent-schedule.webp" alt="illustration-consistent-schedule" />
       </div>
-      <div className='bg-purple-500 flex justify-center items-center gap-4 text-white rounded-lg col-span-1 lg:col-span-6 p-4'>
-        <img className="w-44" src="/assets/images/illustration-grow-followers.webp" alt="Grow followers" />
-        <span className='text-4xl font-bold'>Grow followers <br /> with non-stop content</span>
+     <div className='bg-yellow-500 rounded-lg row-span-3 flex flex-col justify-center items-center  p-4 order-last lg:order-none'>
+        <p className='text-3xl font-semibold lg:text-5xl mb-5 -tracking-wide'>Write your content using AI</p>
+        <img src="public/assets/images/illustration-ai-content.webp" alt="illustration-ai-content" />
       </div>
-    </div>
-    
+      <div className='bg-white rounded-lg row-span-1 lg:row-span-2 flex flex-col justify-center items-center  p-4'>
+        <p className='text-6xl font-semibold'>&gt; 56%</p>
+        <p className='my-5'>fater audience growth</p>
+        <img className='w-44' src="public/assets/images/illustration-audience-growth.webp" alt="illustration-audience-growth" />
+      </div>
+      <div className='bg-purple-500 rounded-lg flex flex-col lg:flex-row justify-center items-center md:col-span-1 lg:col-span-2 row-span-1 lg:row-span-2 min-h-[100px] gap-2 p-4'>
+  <img className='w-52 md:mb-4 lg:mr-4' src="public/assets/images/illustration-grow-followers.webp" alt="illustration-grow-followers" />
+  <p className='text-white text-5xl leading-2 -tracking-widest font-semibold text-center md:text-left'>
+    Grow followers with non-stop content
+  </p>
+</div>
     </div>
   );
 }
