@@ -11,7 +11,7 @@ export default {
         white: "#FFFFFF",
         black: "#141414",
       },
-      fontSize: {},
+      fontFamily: {},
     },
   },
   plugins: [],
