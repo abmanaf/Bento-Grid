@@ -4,11 +4,11 @@ function App() {
   return (
     <div className='grid md:grid-cols-1 lg:grid-cols-4 grid-flow-row md:grid-rows-1 lg:grid-rows-6 gap-3'>
       <div className='bg-orange-100 rounded-lg flex flex-col justify-center md:row-span-1 lg:row-span-3 p-4'>
-        <p className='text-3xl lg:text-5xl xl:text-4xl 2xl:text-5xl -tracking-wide leading-2'>Create and schedule content  <span className='text-purple-500'>quiker</span></p>
+        <p className='text-4xl lg:text-5xl xl:text-4xl 2xl:text-5xl -tracking-wide leading-2'>Create and schedule content  <span className='text-purple-500'>quiker</span></p>
         <img className='w-3/5 lg:w-3/5 xl:w-4/5 mt-5' src="./assets/images/illustration-create-post.webp" alt="create-post" />
       </div>
       <div className='bg-purple-600 rounded-lg col-span-1 lg:col-span-2 flex flex-col justify-center items-center md:row-span-1 lg:row-span-2 order-first lg:order-none  p-4'>
-        <p className='text-5xl lg:text-6xl text-white font-semibold text-center'>Social Media <span className='text-yellow-500'>10x</span> Faster with AI</p>
+        <p className='text-6xl lg:text-6xl font-semibold text-white text-center'>Social Media <span className='text-yellow-500'>10x</span> Faster with AI</p>
         <img className='md:w-4/5 lg:w-2/5 mt-5' src="./assets/images/illustration-five-stars.webp" alt="illustration-five-stars" />
         <p className='text-white'>Over 4,000 5-star reviews</p>
       </div>
