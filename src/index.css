@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply max-w-full md:mx-0 lg:mx-14 xl:mx-32 my-11 bg-slate-100;
+  @apply max-w-full md:mx-0 lg:mx-14 xl:mx-36 my-11 bg-slate-100;
 }
